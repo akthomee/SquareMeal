@@ -4,82 +4,36 @@
 		<title> </title>
 	      	<!--meta tags -->
 		<meta charset="utf-8">
-    <title>Rustic Cuisine - Modern restuarant in Abraka</title>
+    <title>SquareMeal - Modern restuarant in Abraka</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Abraka Food Rice Affordablefood RusticCuisine Cuisine Foodtoeatinabk AbkRestuarant delicious meal" name="keywords">
-    <meta content="Welcome to Rustic Cuisine, where we celebrate the charm of the countryside with every dish! Enjoy hearty, homemade meals crafted from fresh, local ingredients. Experience the warmth and simplicity of rustic dining!" name="description">
+    <meta content="Abraka Food Rice Affordablefood SquareMeal Cuisine Foodtoeatinabk AbkRestuarant delicious meal" name="keywords">
+    <meta content="Welcome to SquareMeal, where we celebrate the charm of the countryside with every dish! Enjoy hearty, homemade meals crafted from fresh, local ingredients. Experience the warmth and simplicity of rustic dining!" name="description">
     	<!--meta tags END-->
+
     	 <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+	<link rel="icon" type="image/png" href="https://website-allen.github.io/SquareMeal/images/favicon.png">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
 
-    <!-- Icon Font Stylesheet -->
+        <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
     	<!-- Icon font stylesheet END-->
-    	<link rel="stylesheet" type="text/css" href="project.css"/>	 
- <style>
- 	/*Media query-Deskptop*/
- @media only screen and (max-width: 1024px) and (min-width: 768px){
-	.label-container:{
-		 display: none;
-	}
 
-	#label-1 {
-		display: none;
-	}
-		#label-2 {
-		display: none;
-	}
-	.nav {
-		height: 100px;
-		margin-left: 430px;
-		width: 490px;
-		margin-top: -40px;
-		background: transparent;
-	}
-	
-	.nav > a {
-		display: inline-block;
-		font-size: 23px;
-  color: #fff;
-  padding: 0px 0px 10px 10px;
-	}
-	.nav > a:hover {
-		border-left: 5px solid #fff;
-		padding-top: 8px;
-	}
-	.chef1-div {
-		height: 710px;
-	}
-	.chef1-div:hover {
-		height: 820px !important;
-	}
-	#team-section {
-		height: 3000px !important;
-	}
-#about-section {
-	height: 1330px !important;
-}
-}
- 	/*Media query-Deskptop END*/
-
-
-@font-face {
-	font-family: Font-1;
-	src: url('fonts/font-1.otf');
-}
- </style>	
+    	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+		
+		<script src="js/testimonial.js" defer></script>
+    <script src="js/main.js" defer></script>
     	
 		</head>
 	<body>
 		      <!--Header start -->
-	<header>
-	 <h1 id="restoran-h1"><i class="fa fa-utensils me-3"></i>&nbsp;&nbsp;Rustic Cuisine</h1>
+	<header id="header">
+	 <h1 id="squaremeal-h1"><img src="img/favicon.png">SquareMeal</h1>
 			<div class="container">
 			 	<input type="checkbox" id="toggle">
 			 	<div class="label-container">
@@ -88,8 +42,7 @@
 			 	</div>
 			<nav class="nav">
 				  <a href="index.html">Home</a>
-				  <a href="#about-section">       
-				  About</a>
+				  <a href="#about-section">Blog</a>
 				  <a href="#service-div-1">Service</a>
 				  <a href="#section-food-menu">Menu</a>
 				  <a href="#footer-div-company">Contact</a>
@@ -98,205 +51,207 @@
 		</header>
 			     <!--Header END -->
 
-	<img src="img/bg-hero.jpg" style="width:100%; height:810px; margin-top:-20px; overflow-x:hidden;"/> 
-	
-	<div id ="shadow"> <br/><br/><br/><br/><br/><br/><br/><br/><br/>
-	<h1>Enjoy our<br/>delicious meal </h1><br/>
-	<p>Welcome to Rustic Cuisine, where we celebrate the charm of the countryside with every dish! Enjoy hearty, homemade meals crafted from fresh, local ingredients. Experience the warmth and simplicity of rustic dining!</p> <br/><br/><br/>
-	
-	<center>
-	<a href="#"><button style="border:none; background:orange; color:#fff; width:100px; height:30px; border-radius:4px;"><b>BOOK A TABLE </b></button> </a>
-	</center> <br/> <br/><br/><br/>
-	
-<div id="div-hero">	
-	<img src="img/hero-2.png" id="hero-img" style="width:280px; display:block; margin: 0 auto; "/>
-</div>	
-	 </div><br/><br/><br/>
+	<img src="img/new/img-1.jpg" id="hero"/> 
+	<div id ="shadow">
+    <div class="hero-grid-parent">
+	    <h1>Enjoy our<br/>delicious meal </h1>
+	    <div id="div-hero">	
+	      <img src="img/new/img-9.jpg" id="hero-img" style="border-radius: 100%; aspect-ratio: 1/1;" />
+      </div>	
+	    <p>Welcome to SquareMeal, where we celebrate the charm of the countryside with every dish! Enjoy hearty, homemade meals crafted from fresh, local ingredients. Experience the warmth and simplicity of rustic dining!</p> 
+	    <a href="#" class="book-table"><button>BOOK A TABLE</button> </a>
+    </div> 
+	</div>
        		<!--hero END-->
+
+
     <!--service section START -->
-<section style="height:950px; width:100%;">
+<section id="service-section">
 <!--service1-master chefs-->
-	<div class="service-div" id="service-div-1">
-		<i class="fa fa-3x fa-user-tie text-primary mb-4" style="padding:10px 0px 10px 10px; color:orange;"></i><br/>
+	<div class="service-div">
+		<i class="fa fa-3x fa-user-tie text-primary mb-4"></i><br/>
 		<h3>Master Chefs</h3><br/>
-<p>Master chefs at Rustic Cuisine craft exceptional dishes with fresh, local ingredients.</p>
-	</div> <br/><br/><br/>
+<p>Chefs at SquareMeal craft exceptional dishes with fresh, local ingredients.</p>
+	</div>
 	
 	<!--service2-Quality food-->
 	<div class="service-div">
-		<i class="fa fa-3x fa-utensils text-primary mb-4" style="padding:10px 0px 10px 10px; color:orange;"></i><br/>
+		<i class="fa fa-3x fa-utensils text-primary mb-4"></i><br/>
 		<h3>Quality Food </h3><br/>
-<p> At Rustic Cuisine, we serve delicious, high-quality food made from the freshest ingredients.</p>
-	</div> <br/><br/><br/>
+<p> At SquareMeal, we serve delicious, high-quality food made from the freshest ingredients.</p>
+	</div> 
 	
 	<!--service3-Online order-->
 	<div class="service-div">
-		<i class="fa fa-3x fa-cart-plus text-primary mb-4" style="padding:10px 0px 10px 10px; color:orange;"></i><br/>
+		<i class="fa fa-3x fa-cart-plus text-primary mb-4"></i><br/>
 		<h3>Online Order</h3><br/>
 <p>Enjoy the convenience of online ordering anytime, making it easy to satisfy your cravings.  </p>
-	</div> <br/><br/><br/>
+	</div> 
 	
   	<!--service4-24/7 support-->
 	<div class="service-div" >
-		<i class="fa fa-3x fa-headset text-primary mb-4" style="padding:10px 0px 10px 10px; color:orange;"></i><br/>
+		<i class="fa fa-3x fa-headset text-primary mb-4" ></i><br/>
 		<h3>24/7 support</h3><br/>
 <p > Our 24/7 support team is always here to assist you with any questions or concerns! </p>
-	</div> <br/><br/><br/>
+	</div> 
 </section> 	
        		<!--service section END-->
    <br/><br/><br/><br/>    		   		
      <!--about us section START-->
- <section style="height:820px; border:0px solid green" id="about-section">
+ <section id="about-section">
  	
-<div style="width:41.6%; margin-left:6.94%; "> <img src="img/about-1.jpg" style="width:100%; animation:none;"/></div>
-<div style="width:27%;  margin-left:52.77%; margin-top:-27.1%; "> <img src="img/about-2.jpg" style="width:100%; animation:none;"/></div>
- <div style="width:27%; margin-left:20.83%;"> <img src="img/about-3.jpg" style="width:100%; animation:none;"/></div>
- <div style="width:41.6%; margin-left:52.77%; margin-top:-27.1%;"> <img src="img/about-4.jpg" style="width:100%; animation:none;"/></div>	
+ <div class="about-img" id="about-img1"> <img src="img/about-1.jpg"/></div>
+ <div class="about-img" id="about-img2"> <img src="img/about-2.jpg"/></div>
+ <div class="about-img" id="about-img3"> <img src="img/about-3.jpg"/></div>
+ <div class="about-img" id="about-img4"> <img src="img/about-4.jpg"/></div>	
  	<br/><br/><br/>
  	
- 	<h2 style="margin: 0 auto; color:orange; width:90%; font-family:Font-1; letter-spacing:2px;">About Us</h2>
-<h1  style="color:#000; margin: 0 auto; width:90%;">Welcome to <i class="fa fa-utensils text-primary me-2" style="color:orange"></i>&nbsp;Rustic Cuisine</h1><br/><br/>
-  <p style="color:#000; display:block; text-align:left; width:85%;">At Rustic Cuisine, we celebrate the art of cooking with passion and creativity. We believe in the power of seasonal flavors and traditional techniques to create memorable dining experiences.<br/><br/>Whether you're here for a special occasion or a casual meal, we aim to make every visit unforgettable. Join us on a culinary journey that honors the richness of rustic dining.
+ 	<h2>About Us</h2>
+<h1>Welcome to <i class="fa fa-utensils text-primary me-2"></i>&nbsp;SquareMeal</h1><br/><br/>
+  <p>At SquareMeal, we celebrate the art of cooking with passion and creativity. We believe in the power of seasonal flavors and traditional techniques to create memorable dining experiences.<br/><br/>Whether you're here for a special occasion or a casual meal, we aim to make every visit unforgettable. Join us on a culinary journey that honors the richness of premium dining.
  </p><br/><br/>
    <!--15 yrs of experience-->
-<div>  
-<h1 style="color:#000; margin-left:70px; color:orange; scale:1.4"><b>|&nbsp;&nbsp;15</b></h1>
-<p style="color:#000; margin-left:-10px; margin-top:-30px"><span style="font-weight:lighter;">Years of</span> <br/><b>EXPERIENCE</b></p>
-</div> 
-<br/><br/>
-<!--50 popular Chefs-->
-<div>
-<h1 style="color:#000; margin-left:68px; color:orange; scale:1.4"><b>|&nbsp;&nbsp;50</b></h1>
-<p style="color:#000; margin-left:-10px; margin-top:-30px;"><span style="font-weight:lighter;">Popular</span> <br/><b>MASTER CHEFS</b></p>
-<div>   
-<br/> <br/>
-  <a href"#">
-  	<button style="background:orange; padding:20px; margin-left:30px; border:none; color:#fff; font-weight:700">READ MORE
-  	</button><br/><br/>
-  	</a>                                               
+<div class="about-yrs-chefs-parent">
+  <div class="about-section-yrs">  
+   <h1>|&nbsp;15</h1>
+   <p><span>Years of</span> <br/><b>EXPERIENCE</b></p>
+  </div> 
+     
+   <!--50 popular Chefs-->
+  <div class="about-section-chefs">
+   <h1>|&nbsp;50</h1>
+   <p><span>Popular</span> <br/><b>MASTER CHEFS</b></p>
+  </div>
+</div>   
+     <br/> <br/>
+  <a href="#" class="about-section-btn">
+  	<button>READ MORE</button><br/><br/>
+  </a>                                               
  	</section>
    	<!--about us section END-->
-<br/><br/><br/><br/><br/><br/>   	
+<br/><br/><br/><br/><br/><br/>   
+
    	<!--food menu section START-->
- <section style="height:1400px; border:1px solid #fff;" id="section-food-menu">
- 	<h2 style="color:orange; text-align:center; font-family:Font-1; letter-spacing: 3px;">Food Menu</h2>
+ <section id="section-food-menu">
+ 	<h2>Food Menu</h2>
  	
  	<h1 style="color:#000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Most Popular items </h1><br/>
- 	<div style="display:flex; width:90%; margin:0 auto; border: none;"> <div style=" width:90px; ">
- 	<i class="fa fa-coffee fa-2x text-primary" style="color:orange; margin:0px 0px 0px 30px;"></i>
- 	<p style="color:#000; margin:-30px 0px 0px -35px">Popular                               <br/><span style="font-weight:bold">Breakfast</span></p>
- 	</div>
-<br/> 	
- 	<div style=" width:90px; margin-left:90px; ">
- 	<i class="fa fa-hamburger fa-2x text-primary" style="color:orange; margin:0px 0px 0px 0px;"></i>
- 	<p style="color:#000; margin:-30px 0px 0px -75px">Special                                <br/><span style="font-weight:bold">Lunch</span></p>
- 	</div> </div>
- 	<br/><br/>
- 	<div style=" width:90px; margin:0 auto;">
- 	<i class="fa fa-coffee fa-2x text-primary" style="color:orange; margin:0px 0px 0px 0px;"></i>
- 	<p style="color:#000; margin:-30px 0px 0px -75px">Lovely                           <br/><span style="font-weight:bold">Dinner</span></p>
- 	</div> <br/><br/>
- 	<hr style="display:block; margin:0 auto; width:85%"/> <br/><br/>
- <div style=" border:1px solid #fff; width:90%; margin:0 auto;">
- <br/>	
+ 	<div class="breakfast-lunch-dinner">
+
+		<div>
+		<i class="fa fa-coffee fa-2x text-primary"></i>
+ 	    <p>Popular<br/><span>Breakfast</span></p>
+ 	    </div>
+ 	
+ 	    <div>
+ 	    <i class="fa fa-hamburger fa-2x text-primary"></i>
+ 	    <p>Special<br/><span>Lunch</span></p>
+ 	    </div>
+
+ 	    <div>
+ 	    <i class="fa fa-coffee fa-2x text-primary" ></i>
+ 	    <p>Lovely <br/><span>Dinner</span></p>
+ 	    </div>
+	</div>
+
+ 	    <hr class="basic-hr"/>
+
+<div class="menu-list-parent">	
+
     	  <!-- Menu 1 START-->
-<div style="margin-bottom: 50px; margin-left:10px; color:#000;">
-<img src="img/menu-1-b.png" style="width: 100px; height: 90px; float: left; margin-right: 10px; border-radius: 5px "/> 
-  <h4>Jollof rice<span style="color:orange; font-size:25px; float:right;">₦5,800</span>
-  <hr style="width:50%; margin:10px 0px 10px 0px;"/>
+<div class="menu-list-child">
+  <img src="img/menu-1-b.png"/> 
+  <h4>Jollof rice<a href="#">Get</a><span>₦5,800</span>
+	<hr/>
   </h4>
-  
-  <small style="font-weight:lighter;">Ipsum ipsum clita erat amet dolor justo diam</small>
-  
+  <small>Flavorful, party-style Jollof rice paired with perfectly seasoned chicken.</small>
 </div> 
        	<!-- Menu 1 END-->
 
 <!-- Menu 2 START-->
-<div style="margin-bottom: 50px; margin-left:10px; color:#000;">
-<img src="img/menu-2-b.jpg" style="width: 100px; height: 90px; float: left; margin-right: 10px; border-radius: 5px "/> 
-  <h4>Banga soup<span style="color:orange; font-size:25px; float:right;">₦10,500</span>
-  <hr style="width:50%; margin:10px 0px 10px 0px;"/>
+ <div class="menu-list-child">
+  <img src="img/menu-2-b.jpg"/> 
+  <h4>Banga Soup<a href="#">Get</a><span>₦10,500</span>
+	<hr/>
   </h4>
-  
-  <small style="font-weight:lighter;">Ipsum ipsum clita erat amet dolor justo diam</small>
-  
+  <small>A classic Niger Delta delicacy made from fresh palm nut extract, infused with aromatic local spices and herbs, served with tender meats.</small>
 </div> 
        	<!-- Menu 2 END-->
  	
  	<!-- Menu 3 START-->
-<div style="margin-bottom: 50px; margin-left:10px; color:#000;">
-<img src="img/menu-3-b.png" style="width: 100px; height: 90px; float: left; margin-right: 10px; border-radius: 5px "/> 
-  <h4>Eguisi soup<span style="color:orange; font-size:25px; float:right;">₦11,000</span>
-  <hr style="width:50%; margin:10px 0px 10px 0px;"/>
+<div class="menu-list-child">
+  <img src="img/menu-3-b.png"/> 
+  <h4>Eguisi Soup<a href="#">Get</a><span>₦11,000</span>
+	<hr/>
   </h4>
-  
-  <small style="font-weight:lighter;">Ipsum ipsum clita erat amet dolor justo diam</small>
-  
+  <small>A comforting classic made with ground melon seeds, richly flavored with traditional spices, palm oil, and fresh leafy greens, simmered with tender assorted meats.</small>
 </div> 
        	<!-- Menu 3 END-->
  	
  	<!-- Menu 4 START-->
-<div style="margin-bottom: 50px; margin-left:10px; color:#000;">
-<img src="img/menu-4-b.jpg" style="width: 100px; height: 90px; float: left; margin-right: 10px; border-radius: 5px "/> 
-  <h4>Chicken wings<span style="color:orange; font-size:25px; float:right;">₦12,000</span>
-  <hr style="width:50%; margin:10px 0px 10px 0px;"/>
+<div class="menu-list-child">
+  <img src="img/menu-4-b.jpg"/> 
+  <h4>Chicken wings<a href="#">Get</a><span>₦12,000</span>
+	<hr/>
   </h4>
-  
-  <small style="font-weight:lighter;">Ipsum ipsum clita erat amet dolor justo diam</small>
-  
+  <small>Crispy, golden-brown chicken wings tossed in your choice of signature savory or spicy sauce, grilled to perfection.</small>
 </div> 
        	<!-- Menu 4 END-->
  	
  	<!-- Menu 5 START-->
-<div style="margin-bottom: 50px; margin-left:10px; color:#000;">
-<img src="img/menu-5-b.png" style="width: 100px; height: 90px; float: left; margin-right: 10px; border-radius: 5px "/> 
-  <h4>Spaghetti<span style="color:orange; font-size:25px; float:right;">₦5,000</span>
-  <hr style="width:50%; margin:10px 0px 10px 0px;"/>
+<div class="menu-list-child">
+  <img src="img/menu-5-b.png"/> 
+  <h4>Spaghetti<a href="#">Get</a><span>₦5,000</span>
+	<hr/>
   </h4>
-  
-  <small style="font-weight:lighter;">Ipsum ipsum clita erat amet dolor justo diam</small>
-  
+  <small>Crispy, golden-brown chicken wings tossed in your choice of signature savory or spicy sauce, grilled to perfection.</small>
 </div> 
        	<!-- Menu 5 END-->
  	
  	<!-- Menu 6 START-->
-<div style="margin-bottom: 50px; margin-left:10px; color:#000;">
-<img src="img/menu-6-b.png" style="width: 100px; height: 90px; float: left; margin-right: 10px; border-radius: 5px "/> 
-  <h4>Chicken burger<span style="color:orange; font-size:25px; float:right;">₦6,000</span>
-  <hr style="width:50%; margin:10px 0px 10px 0px;"/>
+<div class="menu-list-child">
+  <img src="img/menu-6-b.png"/> 
+  <h4>Chicken Burger<a href="#">Get</a><span>₦6,000</span>
+	<hr/>
   </h4>
-  
-  <small style="font-weight:lighter;">Ipsum ipsum clita erat amet dolor justo diam</small>
-  
+  <small>Tender, seasoned chicken patty topped with crisp greens and creamy dressing inside a warm, toasted brioche bun.</small>
 </div> 
        	<!-- Menu 6 END-->
  	
  	<!-- Menu 7 START-->
-<div style="margin-bottom: 50px; margin-left:10px; color:#000;">
-<img src="img/menu-7-b.png" style="width: 100px; height: 90px; float: left; margin-right: 10px; border-radius: 5px "/> 
-  <h4>Barbeque<span style="color:orange; font-size:25px; float:right;">₦13,000</span>
-  <hr style="width:50%; margin:10px 0px 10px 0px;"/>
+<div class="menu-list-child">
+  <img src="img/menu-7-b.png"/> 
+  <h4>Barbeque<a href="#">Get</a><span>₦31,000</span>
+	<hr/>
   </h4>
-  
-  <small style="font-weight:lighter;">Ipsum ipsum clita erat amet dolor justo diam</small>
-  
+  <small>Mouth-watering, tender barbecue cuts packed with deep, smoky flavors and charred to perfection.</small>
 </div> 
        	<!-- Menu 7 END-->
  	
  	<!-- Menu 8 START-->
-<div style="margin-bottom: 50px; margin-left:10px; color:#000;">
-<img src="img/menu-8-b.png" style="width: 100px; height: 90px; float: left; margin-right: 10px; border-radius: 5px "/> 
-  <h4>Banga rice<span style="color:orange; font-size:25px; float:right;">₦7,000</span>
-  <hr style="width:50%; margin:10px 0px 10px 0px;"/>
+<div class="menu-list-child">
+  <img src="img/menu-8-b.png"/> 
+  <h4>Banga rice<a href="#">Get</a><span>₦7,000</span>
+	<hr/>
   </h4>
-  
-  <small style="font-weight:lighter;">Ipsum ipsum clita erat amet dolor justo diam</small>
-  
+  <small>Flavorful, aromatic palm fruit rice bursting with deep traditional flavors and savory goodness.</small>
 </div> 
        	<!-- Menu 8 END-->
- 	</div>	<br/><br/> 	
- 	</section> <hr/>
- 	<br/><br/>
+
+         <!-- Menu 9 START-->
+<div class="menu-list-child">
+  <img src="img/new/img-14.jpg"/> 
+  <h4>Fried rice<a href="#">Get</a><span>₦6,000</span>
+	<hr/>
+  </h4>
+  <small>Warm green, flavorful, party-style fried rice loaded with savory seasonings, fresh veggies, and succulent pieces of meat.</small>
+</div> 
+       	<!-- Menu 9 END-->
+ 	</div>   
+ 	</section> <hr class="basic-hr"/>
+
+ 	</div>   
+ 	</section> <hr class="basic-hr"/>
  	<!--food menu section END-->
  	
   <!--Reservation section START-->
@@ -304,199 +259,229 @@
 	     <!-- video start-->
 	<video src="https://www.youtube.com/embed/DWRcNpR6Kdc" width="99%" height="320" controls muted poster="img/video.jpg"> Sorry your browser does not support embedding videos. </video> 
        <!-- video END-->
-<div style="height:550px; background:#121C42; padding:20px 0px 0px 30px;">
-	
-	<span style="color:orange; font-family:Font-1; letter-spacing: 3px; font-weight:bold;">Reservation</span><h2 style="color:#fff; padding:10px 0px 0px 0px">Book A Table Online</h2>
+<div class="reservation-parent-div">
+	<span>Reservation</span><h2>Book A Table Online</h2>
 	
 <form>
 	
 	<div class="reservation-div">
-	<input type="text" placeholder="Your Name" class="reservation-input"/>
-		</div>
+	 <input type="text" placeholder="Your Name" class="reservation-input"/>
+	</div>
 
 	<div class="reservation-div">
-	<input type="text" placeholder="Your Email" class="reservation-input"/>
-		</div>
+	 <input type="text" placeholder="Your Email" class="reservation-input"/>
+	</div>
 
-		<div class="reservation-div">
-	<input type="date" placeholder="Date & Time" class="reservation-input" id="reservation-date"/>
-	<label for="reservation-date" id="date-label">Date & Time</label>
-		</div>
+	<div class="reservation-div">
+	 <input type="date"  class="reservation-input" id="reservation-date"/>
+	</div>
                                         
   <div class="reservation-div">
-	<select id="reservation-select">
-                                          <option >People 1</option>
-                                          <option >People 2</option>
-                                          <option >People 3</option>
-                                        </select>
-<label for="reservation-select" id="select-label">No Of People</label>                                                
-                                                                        
-		</div>
-	
-	 <div class="reservation-div">
-	<input type="text" placeholder="Special Request" class="reservation-input" style="height:80px;"/>
-		</div> <br/>
-<button style="color:#fff; background:orange; width:150px; height:50px; border:none">BOOK NOW </button>                                  
-</form>
+	<select id="reservation-select" >
+        <option >1 person</option>
+        <option >2 people</option>
+        <option >3 people</option>
+		<option >4 people</option>
+		<option >5 people</option>
+    </select>
+    <label for="reservation-select" id="select-label"></label>             
+  </div>                                                                
 
+  <div class="reservation-div">
+	<textarea rows="4" cols="30" placeholder="special request" id="special-request"></textarea>
+  </div> <br/>                                
+</form>
+<button>BOOK NOW </button>  
 </div>       
        
 </section>
   <!--Reservation section END-->
- <br/><br/><br/> 
+
   <!-- Team section START--> 	
-<section style="height:1500px; border: none" id="team-section">
-	<div style="text-align:center"><span style="color:orange; font-family:Font-1; letter-spacing: 3px;">Team Members </span>
-	<h1>Our Master Chefs </h1>
-	</div> <br/>
-	
+<section id="team-section">
+	<div class="team-members"><span>Team Members </span>
+	 <h1>Our Master Chefs</h1>
+	</div> 
+<div class="parent-chef-divs">
       	<!--chef 1 START-->
- <div class="chef1-div" ><br/>
- 	<img src="img/team-1.jpg" style="width:80%; display:block; margin:0 auto; border-radius:100%;"/><br/>
- 	<h2>Full Name </h2>
- <small>Designation </small>
- <br/><br/>
-   <!--div for the icons-->
- <div>
- <a href=""><i class="fab fa-facebook-f"></i>
- </a>
-  <a href=""><i class="fab fa-twitter"></i></a>
-  <a href=""><i class="fab fa-instagram"></i>
-  </a>
-  </div>
+ <div class="chef-div" ><br/>
+ 	<img src="img/team-1-b.jpg"/><br/>
+ 	<h2>Jamie Oliver</h2>
+    <small>Head waiter</small>
+    <br/><br/>
+    <!--div for the icons-->
+    <div class="chefs-icons-parent">
+     <a href=""><i class="fab fa-facebook-f"></i></a>
+     <a href=""><i class="fab fa-twitter"></i></a>
+     <a href=""><i class="fab fa-instagram"></i></a>
+    </div> 
   <!--div for the icons END-->
- 	</div>
+ </div>
       	<!--chef 1 END-->
       	
  <!--chef 2 START-->
- <div class="chef1-div"><br/>
- 	<img src="img/team-2.jpg" style="width:80%; display:block; margin:0 auto; border-radius:100%;"/><br/>
- 	<h2>Full Name </h2>
- <small>Designation </small>
- <br/><br/>
-   <!--div for the icons-->
- <div>
- <a href=""><i class="fab fa-facebook-f"></i>
- </a>
-  <a href=""><i class="fab fa-twitter"></i></a>
-  <a href=""><i class="fab fa-instagram"></i>
-  </a>
-  </div>
+ <div class="chef-div" ><br/>
+ 	<img src="img/team-2-b.jpg"/><br/>
+ 	<h2>Massimo Bottura</h2>
+    <small>Pastry chef</small>
+    <br/><br/>
+    <!--div for the icons-->
+    <div class="chefs-icons-parent">
+     <a href=""><i class="fab fa-facebook-f"></i></a>
+     <a href=""><i class="fab fa-twitter"></i></a>
+     <a href=""><i class="fab fa-instagram"></i></a>
+    </div> 
   <!--div for the icons END-->
- 	</div>
+ </div>
       	<!--chef 2 END-->     	
       	
      <!--chef 3 START-->
- <div class="chef1-div"><br/>
- 	<img src="img/team-3.jpg" style="width:80%; display:block; margin:0 auto; border-radius:100%;"/><br/>
- 	<h2>Full Name </h2>
- <small>Designation </small>
- <br/><br/>
-   <!--div for the icons-->
- <div>
- <a href=""><i class="fab fa-facebook-f"></i>
- </a>
-  <a href=""><i class="fab fa-twitter"></i></a>
-  <a href=""><i class="fab fa-instagram"></i>
-  </a>
-  </div>
+	 <div class="chef-div" ><br/>
+ 	<img src="img/team-3-b.jpg"/><br/>
+ 	<h2>Hilda Baci</h2>
+    <small>Executive chef</small>
+    <br/><br/>
+    <!--div for the icons-->
+    <div class="chefs-icons-parent">
+     <a href=""><i class="fab fa-facebook-f"></i></a>
+     <a href=""><i class="fab fa-twitter"></i></a>
+     <a href=""><i class="fab fa-instagram"></i></a>
+    </div> 
   <!--div for the icons END-->
- 	</div>
+ </div>
       	<!--chef 3 END--> 	
+
    <!--chef 4 START-->
- <div class="chef1-div"><br/>
- 	<img src="img/team-4.jpg" style="width:80%; display:block; margin:0 auto; border-radius:100%;"/><br/>
- 	<h2>Full Name </h2>
- <small>Designation </small>
- <br/><br/>
-   <!--div for the icons-->
- <div>
- <a href=""><i class="fab fa-facebook-f"></i>
- </a>
-  <a href=""><i class="fab fa-twitter"></i></a>
-  <a href=""><i class="fab fa-instagram"></i>
-  </a>
-  </div>
+   <div class="chef-div" ><br/>
+ 	<img src="img/team-4-b.jpg"/><br/>
+ 	<h2>Gordon Ramsay</h2>
+    <small>Kitchen manager</small>
+    <br/><br/>
+    <!--div for the icons-->
+    <div class="chefs-icons-parent">
+     <a href=""><i class="fab fa-facebook-f"></i></a>
+     <a href=""><i class="fab fa-twitter"></i></a>
+     <a href=""><i class="fab fa-instagram"></i></a>
+    </div> 
   <!--div for the icons END-->
- 	</div>
+ </div>
       	<!--chef 4 END-->   	
-      	
-</section>
+</div>	     	
+</section> 
    <!-- Team section END--> 	
  	
  	<!--Testimonial START-->
- 	<h4 style="color:orange; text-align:center; font-family:Font-1; letter-spacing: 3px;">Testimonial </h4>
- 	<h1 style="text-align:center;">Our Clients Say!!! </h1> <br/>
- 	<div  style="background:orange; width:315px; height:230px; margin: 0 auto;"><br/>
- 	&nbsp;&nbsp;	<i class="fa fa-quote-left fa-2x text-primary mb-3" style="color:#fff;"></i><br/><br/>
- 	<p style="padding:10px;">"Rustic Cuisine exceeded my expectations! affordable prices, delicious food, the ambiance was perfect. I can't wait to come back!"</p>
- 	<div style="display:flex; align-items:center;">
-&nbsp;&nbsp; 		<img src="img/testimonial-1.jpg" style="width:60px; border-radius:100%; align-items:center;"/> 
- 		<div style="align-items:center; color:#fff; line-height:20px; padding:0 0 0 20px;">
- 		<h3>Emily Ruther<h3> 
- 		<small>Nurse</small>
- 			</div>
- 		</div>
- 	
- 	</div>
- 	<br/><br/><br/>
- 	
+<section id="testimonial-section">
+	<h4>Testimonial </h4>
+ 	<h1>Our Clients Say!!! </h1>
+
+      <div class="slider" id="slider">
+       <div class="slides" id="slides"> 
+
+         <div class="slide-item">
+            <img src="img/testimonial-1.jpg">
+            <h6>Samantha Henshaw</h6>
+            <p><i class="fa fa-quote-left" aria-hidden="true"></i> Cozy ambiance and phenomenal food! Their chicken burger is loaded and incredibly satisfying. <i class="fa fa-quote-right" aria-hidden="true"></i></p>
+         </div>
+
+         <div class="slide-item">
+            <img src="img/testimonial-2.jpg">
+            <h6>Mateo Silva</h6>
+            <p><i class="fa fa-quote-left" aria-hidden="true"></i> Squaremeal is my go-to spot now. Whether it's the rich egusi or the perfectly cooked spaghetti, the quality never disappoints. <i class="fa fa-quote-right" aria-hidden="true"></i></p>
+         </div>
+
+         <div class="slide-item">
+            <img src="img/testimonial-3.jpg">
+            <h6>Chloe Dupont</h6>
+            <p><i class="fa fa-quote-left" aria-hidden="true"></i> I tried their Banga soup, and every single spoonful felt like a warm, comforting taste of home. <i class="fa fa-quote-right" aria-hidden="true"></i></p>
+         </div>
+
+         <div class="slide-item">
+            <img src="img/testimonial-4.jpg">
+            <h6>Mfoniso Udoh</h6>
+            <p><i class="fa fa-quote-left" aria-hidden="true"></i>You haven't truly lived until you've tasted their crispy chicken wings paired with their signature sauce. Absolutely addictive! <i class="fa fa-quote-right" aria-hidden="true"></i></p>
+         </div>
+
+         <div class="slide-item">
+            <img src="img/testimonial-1.jpg">
+            <h6>Zainab Yanar</h6>
+            <p><i class="fa fa-quote-left" aria-hidden="true"></i> The Jollof rice at Squaremeal is hands down the best in town—smoky, perfectly spiced, and keeps you coming back for more! <i class="fa fa-quote-right" aria-hidden="true"></i></p>
+         </div>
+
+       </div>
+      </div>
+      
+      <div class="pagination">
+       <span class="dot active"></span>
+       <span class="dot"></span>
+       <span class="dot"></span>
+       <span class="dot"></span>
+       <span class="dot"></span>
+     </div>
+
+   <button class="prev-btn" id="prev-btn">&#10094;</button>
+   <button class="next-btn" id="next-btn">&#10095;</button>
+</section>
  	 	<!--Testimonial END-->
-       	<!--footer-->
-<footer style="background:#121C42; height:900px;"><br/><br/><br/>
-<div class="footer-div" id="footer-div-company">
-	<h3 style="color:orange;"> Company</h3>
-<a href=""> › &nbsp;About us  </a>
-<a href="">› &nbsp;Contact us  </a>
-<a href="">› &nbsp;Reservation  </a>
-<a href="">› &nbsp;Privacy Policy  </a>
-<a href="">› &nbsp;Terms & Condition  </a>
-	</div>
+
+       	<!--footer start-->
+<footer id="footer">
+<div class="footer-grid-divs">
+ <div class="footer-div" id="footer-div-company">
+	<h3> Company</h3>
+    <a href="">› &nbsp;About us  </a>
+    <a href="">› &nbsp;Contact us  </a>
+    <a href="">› &nbsp;Reservation  </a>
+    <a href="">› &nbsp;Privacy Policy  </a>
+    <a href="">› &nbsp;Terms & Condition  </a>
+ </div>
 	
 	
-	<div class="footer-div" id="footer-div-contact">
-	<h3 style="color:orange;"> Contact</h3>
-	<p ><i class="fa fa-map-marker-alt me-3"></i>&nbsp;&nbsp;&nbsp;Ces office, Delsu, Abraka </p> <br/>
-<p ><i class="fa fa-phone-alt me-3"></i>&nbsp;&nbsp;&nbsp;+2349035427684</p><br/>
-<p class="mb-2"><i class="fa fa-envelope me-3"></i>&nbsp;&nbsp;&nbsp;info@example.com</p>
-            <div id="icons-div">
-  <a  href=""><i class="fab fa-twitter"></i></a>
-  <a  href=""><i class="fab fa-facebook-f"></i></a>
-  <a  href=""><i class="fab fa-youtube"></i></a>
-  <a  href=""><i class="fab fa-linkedin-in"></i></a>
-             </div>
-	</div>
-	
-	
-<div class="footer-div">
-	<h3 style="color:orange;">Opening</h3><br/>
-<h4 style="color:#fff;">Monday - Saturday</h5>
-<p>09AM - 09PM</p><br/><br/>
- <h4 style="color:#fff;">Sunday</h5>
-   <p>10AM - 08PM</p>
-	</div>		
-	
-	
+ <div class="footer-div" id="footer-div-contact">
+	<h3> Contact</h3>
+	  <p ><i class="fa fa-map-marker-alt me-3"></i>&nbsp;&nbsp;&nbsp;Sapele, Delta State</p> <br/>
+    <p ><i class="fa fa-phone-alt me-3"></i>&nbsp;&nbsp;&nbsp;+2349035427684</p><br/>
+    <p class="mb-2"><i class="fa fa-envelope me-3"></i>&nbsp;&nbsp;&nbsp;otomee357@gmail.com</p>
+    <div id="icons-div">
+     <a  href=""><i class="fab fa-twitter"></i></a>
+     <a  href=""><i class="fab fa-facebook-f"></i></a>
+     <a  href=""><i class="fab fa-youtube"></i></a>
+     <a  href=""><i class="fab fa-linkedin-in"></i></a>
+    </div>
+ </div>
 		
-<div class="footer-div">
-	<h3 style="color:orange;">Newsletter</h3><br/>
-<p>Subscribe to our news letter so you wont miss an update.</p>
-<div>
-&nbsp;&nbsp;&nbsp;<input type="text" placeholder="youremail" style="width:80%; height:40px;"><button style="background:orange; width:50px; height:30px; margin-left:-60px; border:none; color:#fff;"> Sign up <button>
-</div> 
- 	</div>		
+ <div class="footer-div" id="footer-div-opening">
+	<h3>Opening</h3><br/>
+    <h4>Monday - Saturday</h5>
+    <p>09AM - 09PM</p><br/><br/>
+    <h4>Sunday</h5>
+    <p>10AM - 08PM</p>
+ </div>		
+	
+ </div>
+
+ <div class="footer-div" id="footer-div-newsletter">
+	<h3>Newsletter</h3><br/>
+    <p>Subscribe to our news letter so you wont miss an update.</p>
+    <div>
+    <input type="text" placeholder="youremail"><a href="#"> Sign up </a>
+    </div> 
+ </div>		
 	
 	
-	<div id="footer-div-2" style="color:#fff; width:90%; margin: 0 auto;">
-	     &copy; <a  href="#">Your Site Name</a>, All Right Reserved. 
-	Designed By <a href="https://wa.me/+2349035427684/" style="text-decoration:underline;">&nbsp;Allen - SpecialStudent</a>            
-			</div>	<br/>							 							                                       
-      <div id="footer-div-3" style="margin:0 auto; text-align:center;">
-   <a href="">Home&nbsp;|</a>
-   <a href="">Cookies&nbsp;|</a>
-   <a href="">Help&nbsp;|</a>
-   <a href="">FQAs</a>
-         </div>                       
-</footer>       	 	 	
-	</body>
+ <div id="footer-attribution">
+	     &copy; <a href="#">SquareMeal</a>, All Right Reserved. <br/>Designed and Developed By <a href="#">&nbsp;Otomee</a>            
+ </div>	
+   <br/>							 							                                       
+ <div id="footer-div-3">
+   <a href="">Home</a>|
+   <a href="">Cookies</a>|
+   <a href="">Help</a>|
+   <a href="">FAQs</a>
+ </div>
+ <!--scroll to top start-->
+<button id="scroll-top">&#8593;</button>
+<!--scroll to top end--> 
+</footer>   
+</body>
 </html>
